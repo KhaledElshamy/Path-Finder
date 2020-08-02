@@ -254,22 +254,11 @@ class NodeView: UIView {
                 x += width
                 grid[i][j].x = i
                 grid[i][j].y = j
-//                createLabel(text: "\(grid[i][j].g) \(grid[i][j].h) \(grid[i][j].f)", pos: rect.origin, size_: rect.size)
             }
             y += height
             x = 0
         }
     }
-    
-    
-//    func createLabel(text: String, pos: CGPoint, size_: CGSize) {
-//        let label = UILabel(frame: CGRect(x: pos.x, y: pos.y, width: size_.width, height: size_.height))
-//        label.adjustsFontSizeToFitWidth = true
-//        label.textColor = UIColor.black
-//        label.textAlignment = .center
-//        label.text = text
-//        self.addSubview(label)
-//    }
     
     
     private func createRect(rect: CGRect, color: UIColor) {
